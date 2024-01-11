@@ -1,5 +1,12 @@
-
+import LearnMoreButton from './components/LearnMoreButton';
 
 export default function Home() {
-    return <h1>Article I</h1>
+    return (
+        <div className="Welcome">
+            <h1>Welcome to Treehill Park Condos!</h1>
+            <>
+            <LearnMoreButton />
+            </>
+        </div>
+    )
 }
