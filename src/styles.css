@@ -55,6 +55,7 @@ body {
 }
 
 .container h1 {
+    font-size: 2.1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
