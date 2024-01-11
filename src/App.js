@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import Navbar from './Navbar';
+import Footer from './Footer'
 import About from './pages/About';
 import CCR from './pages/CCR';
 import Home from './pages/Home';
@@ -19,6 +20,7 @@ function App() {
         <Route path="/contact" element={<Contact />} /> 
       </Routes>
     </div>
+    <Footer />
     </>
   );
 }
