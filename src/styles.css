@@ -83,6 +83,8 @@ body {
 
 .container {
     margin: 1rem;
+    max-width: 1300px;
+    width: 100%;
 }
 
 .container h1 {
@@ -98,6 +100,17 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.ccr p {
+    font-size: calc(10px + 2vmin);
+    font-family: 'Open Sans';
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .button {
