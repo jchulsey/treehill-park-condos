@@ -4,17 +4,86 @@
 
 body {
     margin: 0;
-    font-family: 'Lemon', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    font-family: 'Pinyon Script', 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-.welcome {
+h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.greeting p {
+    font-family: 'Raleway';
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: left;
+}
+
+.header {
+    grid-area: header;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+      'header header header' 
+      'left middle right' 
+      'footer footer footer';
+    grid-column-gap: 10px;
+    padding: 10px 20px;
+  }
+
+.left,
+.middle,
+.right {
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.left {
+    grid-area: left;
+    background-color: #aaa;
+}
+
+.middle {
+    grid-area: middle;
+    background-color: #bbb;
+}
+
+.right {
+    grid-area: right;
+    background-color: #ccc;
+}
+
+@media (max-width: 600px) {
+    .grid-container  {
+        grid-template-areas: 
+            'header header header header header header' 
+            'left left left left left left' 
+            'middle middle middle middle middle middle' 
+            'right right right right right right' 
+            'footer footer footer footer footer footer';
+    }
+}
+
+.img-container {
+    border-radius: 15px;
     background-image: url("http://localhost:3000/sherwood-map-orange-marker.png");
     background-size: cover;
-    height: 100vh;
+    height: 75vh;
 }
 
 .center {
@@ -24,16 +93,16 @@ body {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  }
+}
 
-  .footer {
-    background-color: #333;
+.footer {
+    background-color: #E37D64;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
-    padding: 20px;
+    padding: 0 1rem;
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -42,7 +111,7 @@ body {
 }
 
 .nav {
-    background-color: #333;
+    background-color: #2D4262;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -53,7 +122,6 @@ body {
 
 .site-title {
     font-size: 2.5rem;
-    font-family: 'Lemon'
 }
 
 .nav ul {
@@ -85,7 +153,7 @@ body {
     margin: 1rem;
 }
 
-.container h1 {
+h1 {
     font-size: 2.1rem;
     display: flex;
     flex-direction: column;
@@ -93,27 +161,29 @@ body {
     justify-content: center;
 }
 
-.container h2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .ccr p {
-    font-size: calc(10px + 2vmin);
-    font-family: 'Open Sans';
+    font-size: calc(20px + 1vmin);
+    font-family: 'Raleway';
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    border-radius: 25px;
+    width: auto;
+    /* border: 5px solid #333; */
+    padding: 10px 20px;
+    margin: 20px;
 }
 
+
+
 .button {
-    background-color: #ddd;
-    font-family: 'Lemon';
+    background-color: #D1FFD6;
+    font-family: 'Raleway';
     border: none;
     color: black;
     padding: 10px 20px;

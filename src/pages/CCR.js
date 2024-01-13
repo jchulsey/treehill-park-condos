@@ -3,17 +3,23 @@ import TLDR from './components/TLDRCard';
 export default function CCR() {
     return (
         <div className="ccr">
+            
             <TLDR />
+            <div className='grid-container'>
             <article>
                 <h1>Declaration of Covenants, Conditions, and Restrictions (CC&R)</h1>
                 <h2>Article I: Definitions</h2>
-                
+
+                <div>
                 <section>
                     <p><strong>SECTION 1: </strong> 
                         <em>Association</em> shall mean and refer to the Treehill Park Property Owners Association Inc., its successors, 
                         and assigns. 
                     </p>
                 </section>
+                </div>
+                
+                
 
                 <section>
                     <p><strong>SECTION 2: </strong> 
@@ -376,7 +382,8 @@ export default function CCR() {
                     </p>  
                 </section>
 
-            </article>   
+            </article>
+            </div>   
         </div>
     );
 }

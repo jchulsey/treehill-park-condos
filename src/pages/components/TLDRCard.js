@@ -1,7 +1,8 @@
 export default function TLDR() {
     return (
-        <div className="cards">
-            <article className="card">
+        <div className="grid-container">
+            <div className="cards">
+            <article className="left">
                 <h1>TL;DR</h1>
                     <p>
                     This document outlines the rules and regulations for the Treehill Park Property Owners Association Inc. 
@@ -12,6 +13,7 @@ export default function TLDR() {
                     amendments, annexation, and the duration of covenants.
                     </p>
             </article>
+            </div>
         </div>
     )
 }

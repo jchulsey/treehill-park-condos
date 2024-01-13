@@ -2,7 +2,7 @@ import LearnMoreButton from './components/LearnMoreButton';
 
 export default function Home() {
     return (
-        <div className="welcome" >
+        <div className="img-container" >
             <>
             <LearnMoreButton />
             </>

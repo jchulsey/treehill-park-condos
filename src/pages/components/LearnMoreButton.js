@@ -14,7 +14,7 @@ const LearnMoreButton = () => {
       {!hideButton && <button className= "button" onClick={handleButtonClick}>Learn More!</button>}
 
       {showWelcomeMessage && (
-        <div>
+        <div className='greeting'> 
           <h2>Welcome to Treehill Park Condos!</h2>
           <p>
             Thank you for your interest in Treehill Park! We are a 51 member condo association located in the 
