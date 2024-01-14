@@ -1,4 +1,4 @@
-# Treehill Park Condos - Webapp
+# Treehill Park Condos - Web App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 This was created to serve as a communication and service hub for a non-profit condo association in Sherwood, AR.
