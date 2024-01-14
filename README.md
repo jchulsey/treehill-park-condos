@@ -13,7 +13,7 @@ Styles are found in the following directory:
 
 ### `src/styles`
 
-This project uses Sass. More information can be found at [Sass] (https://sass-lang.com/).
+This project uses Sass. More information can be found at [Sass](https://sass-lang.com/).
 
 ### `npm run build`
 
