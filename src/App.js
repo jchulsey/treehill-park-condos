@@ -1,5 +1,6 @@
 import React from 'react';
-import './styles.scss';
+import './styles/global.scss';
+import './styles/styles.scss';
 import Navbar from './Navbar';
 import Footer from './Footer'
 import About from './pages/About';

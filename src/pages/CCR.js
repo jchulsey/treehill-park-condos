@@ -13,20 +13,19 @@ import ArticleX from './articles/ArticleX';
 export default function CCR() {
     return (
         <div className="ccr">
-            
-            <TLDR />
-            <ArticleI />
-            <ArticleII />
-            <ArticleIII />
-            <ArticleIV />
-            <ArticleV />
-            <ArticleVI />
-            <ArticleVII />
-            <ArticleVIII />
-            <ArticleIX />
-            <ArticleX />
+                <TLDR />
+                <ArticleI />
+                <ArticleII />
+                <ArticleIII />
+                <ArticleIV />
+                <ArticleV />
+                <ArticleVI />
+                <ArticleVII />
+                <ArticleVIII />
+                <ArticleIX />
+                <ArticleX />
             <div className='grid-container'>
-            
+                
             </div>   
         </div>
     );

@@ -2,7 +2,7 @@ export default function TLDR() {
     return (
         <div className="grid-container">
             <div className="cards">
-            <article className="left">
+            <article>
                 <h1>TL;DR</h1>
                     <p>
                     This document outlines the rules and regulations for the Treehill Park Property Owners Association Inc. 
